@@ -1,0 +1,135 @@
+* { 
+	font-family:"Courier New",monospace;
+	box-sizing: border-box;
+}
+body {
+    background-color: black;
+     background-image:url('https://64.media.tumblr.com/2e39f0f97a0cc682b2ce7e9db30e9a64/f145147b69889cf3-db/s400x600/bea3dfd738b945e50f56e3bed5caec71c595db1e.gifv'); 
+     background-repeat:no-repeat;
+     background-size: 100% 40vh;
+    }
+.ranking{
+    
+    position: relative;
+    margin: 40vh 5% 5% 0;
+}
+.ranking a {
+    
+    color:white;
+    text-decoration: none;
+    font-size: 8vh;
+
+}
+h1 {
+    color:transparent;
+  
+    position: absolute;
+    margin:-40vh 50vh ;
+    font-size: 45vh;
+
+    animation: color-change 1s infinite;
+    
+}
+
+@keyframes color-change {
+    25% { color: grey }
+    50% { color: white; }
+    100% { color: lightblue; }
+
+
+    
+}
+p{
+    font-size: 5vh;
+    color: white;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space:nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    margin-top:-5vh;
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(20, end),
+      blink-caret .75s step-end infinite;
+}
+  
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: white; }
+}
+@media  screen and (max-width:400px) {
+    * { 
+        font-family:"Courier New",monospace;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: black;
+         background-image:url('https://64.media.tumblr.com/2e39f0f97a0cc682b2ce7e9db30e9a64/f145147b69889cf3-db/s400x600/bea3dfd738b945e50f56e3bed5caec71c595db1e.gifv'); 
+         background-repeat:no-repeat;
+         background-size: 100% 30vh;
+        }
+    .ranking{
+        
+        position: relative;
+        margin: 60% 5% 5% 0;
+    }
+    .ranking a {
+        
+        color:white;
+        text-decoration: none;
+        font-size: 5vh;
+    
+    }
+    h1 {
+        color:transparent;
+      
+        position: absolute;
+        margin:-30vh 5vh ;
+        font-size: 20vh;
+    
+        animation: color-change 1s infinite;
+        
+    }
+    
+    @keyframes color-change {
+        25% { color: grey }
+        50% { color: white; }
+        100% { color: lightblue; }
+    
+    
+        
+    }
+    p{
+        font-size: 5vh;
+        color: white;
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid white; /* The typwriter cursor */
+        white-space:nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        margin-top:7vh;
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+          typing 3.5s steps(20, end),
+          blink-caret .75s step-end infinite;
+    }
+      
+    /* The typing effect */
+    @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+    }
+    
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+    }
+    
+}

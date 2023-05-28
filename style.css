@@ -1,0 +1,159 @@
+
+.hero-banner {
+  align-items: center;
+  display: flex;
+  height: calc(var(--vh, 1vh) * 100);
+  position: relative;
+  justify-content: center;
+  z-index: -1;
+}
+
+.hero-banner__title {
+  color: #fff;
+  font-size: calc(var(--px, 1px) * 100);
+  font-weight: 700;
+  padding: 0 20px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-banner__stroked-title {
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  
+}
+
+.hero-banner__image {
+  border-radius: calc(var(--px, 1px) * 20);
+  position: fixed;
+  transform: rotate(-15deg);
+  width: calc(var(--px, 1px) * 450);
+}
+
+.content {
+  background-image: url('https://64.media.tumblr.com/1b2d12b3c4d63cb3cb7d1216882111fc/5ac07110a9adb11a-ea/s1280x1920/27db75d1ffc737b5e52ca9a50239cb5efbc8297e.gif');
+  background-size: 100% 90%;
+  font-size: 40px;
+  padding: 120px 80px;
+  height: 30vh; 
+}
+.content button{
+	text-decoration: none;
+	background-color: white;
+	text-align: center;
+	font-size: 3rem;
+	color: lightblue;
+	border-color:transparent ;
+  margin-left:10%;
+	padding: 0 50vh;
+	position: relative;
+	justify-content: center;
+	cursor: pointer;
+	
+	
+}
+.content a{
+	text-decoration: transparent;
+	color: darkblue;
+  font-weight: bold;
+}
+.content a:hover{
+	transition-duration:0.4s;
+	color: white;
+	
+}
+.content button:hover{
+  background-color: lightblue;
+}
+
+body {
+	background-color: #000;
+	font-family:"Courier New",monospace;
+}
+
+* {
+	font-family:"Courier New",monospace;
+	box-sizing: border-box;
+}
+@media screen and (max-width:400px) {
+  
+.hero-banner {
+  align-items: center;
+  display: flex;
+  height: calc(var(--vh, 1vh) * 100);
+  position: relative;
+  justify-content: center;
+  z-index: -1;
+}
+
+.hero-banner__title {
+  color: #fff;
+  font-size: calc(var(--px, 1px) * 60);
+  font-weight: 700;
+  padding: 0 20px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-banner__stroked-title {
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+  
+}
+
+.hero-banner__image {
+  border-radius: calc(var(--px, 1px) * 20);
+  position: fixed;
+  transform: rotate(-15deg);
+  width: calc(var(--px, 1px) * 450);
+}
+
+.content {
+  background-image: url('https://64.media.tumblr.com/1b2d12b3c4d63cb3cb7d1216882111fc/5ac07110a9adb11a-ea/s1280x1920/27db75d1ffc737b5e52ca9a50239cb5efbc8297e.gif');
+  background-size: 100% 90%;
+  font-size: calc(var(--px, 1px) * 3);
+  padding: 120px 80px;
+  height: 30vh; 
+}
+.content button{
+	text-decoration: none;
+	background-color: white;
+	text-align: center;
+	font-size: calc(var(--rem, 1rem) * 2);
+	color: lightblue;
+	border-color:transparent ;
+  /**margin-left:10%;**/
+	padding: 0 calc(var(--vh, 1vh) * 0);
+	position: relative;
+	justify-content: center;
+	cursor: pointer;
+	
+	
+}
+.content a{
+	text-decoration: transparent;
+	color: darkblue;
+  font-weight: bold;
+}
+.content a:hover{
+	transition-duration:0.4s;
+	color: white;
+	
+}
+.content button:hover{
+  background-color: lightblue;
+}
+
+body {
+	background-color: #000;
+	font-family:"Courier New",monospace;
+}
+
+* {
+	font-family:"Courier New",monospace;
+	box-sizing: border-box;
+}
+  
+}

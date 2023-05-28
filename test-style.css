@@ -1,0 +1,23 @@
+* {
+	background-color: black;
+	font-family:"Courier New",monospace;
+	box-sizing: border-box;
+}
+.Quiz{
+	color:white;
+	font-size: 3vh;
+}
+
+.Quiz button{
+	color: white;
+	font-size: 3vh;
+	font-weight: 400;
+	cursor: pointer;
+	background-color:darkblue;
+
+}
+h3{
+	background-color: darkblue;
+	font-family: "Patrick Hand SC";
+	font-size: 40px;
+}

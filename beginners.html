@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="beginner-style.css">
+	<script src="test-scores.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Patrick Hand SC' rel='stylesheet'>
+	
+    <title>Hack.It()</title>
+</head>
+<body>
+	<h1>Hello! Welcome to hack.it()</h1>
+	<h2>this is the beginners page.</h2>
+	
+	<div class = "starter">
+		<p id="intro"> HTML stands for Hypertext Markup Language
+			It's a website developing language created in 1991 but a man called Sir Tim Berners-Lee.
+			CSS stands for Cascading Style sheet and is used to style HTML websites.
+		</p>
+		
+		<figure>
+			<figcaption>Step 1: Standard frame</figcaption>
+			<pre>
+			  <code class="beginning">
+&lt;!DOCTYPE hmtl&gt;
+&lt;html&gt;
+	&lt;head&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+				
+			  </code>
+			
+				<p id="header"> In the header will be the title and a like to an external style sheet if needed. 
+Keep in mind, indexing (spacing before words that are in another subheading) is very important for readability.</p>
+			
+				<code>
+&lt;head&gt;
+	&lt;title&gt; Hello! &lt;/title&gt;
+&lt;/head&gt;
+				</code>
+				
+				<p id="body">
+					In the body is the main code and this is also where you can add internal CSS and JavaScript.
+					We will start with something simple: a background colour and a title.
+				</p>
+				<code id = "body-code">
+&lt;body bgcolor = "red"&gt;
+	&lt;h1&gt; Hello! &lt;/h1&gt;
+&lt;/body&gt;
+				</code>
+				<code id = "body-comment">
+				
+&lt;!-- This is a comment (in html) --&gt;
+&lt;!--if you want to add a background picture
+you can do this code  ⬇ --&gt;
+&lt;style&gt;
+	*{
+	background-image: url('/**here you can add the 
+	url of the image either from the internet
+	or your folder**/')
+	background-size:/** this can be in 
+	pixels/percentage**/
+	}
+	(/** **/ is a comment in CSS)
+&lt;/style&gt;
+				
+			
+				</code>
+				<p id = "body-explain">
+					the "body" of the program is the page and what the user sees. So by putting 'body bgcolor = "red' we have made
+					the background red. bg stands for background. The code inside &lt;style&gt;&lt;/style&gt; is CSS (an internal
+					Cascading style sheet)
+				</p>
+			</pre>
+		</figure>
+		<h1 id = "embeded-html"> Your turn! Code html on this ⬇</h1>
+		<p class = "extra"> feel free to play with it and try different backgrounds</p>
+		<iframe src="https://trinket.io/embed/html/00520acac9?runMode=autorun" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+	</div>
+	
+	<a href = "home.html"><button onclick="change()" id="complete-button"></button>
+	</a>
+		
+	<script>
+		var score_val = parseInt(localStorage.getItem("Score"))
+		
+		if (score_val > 2){
+				document.getElementById("complete-button").innerHTML="Complete✓";
+			}
+		else{
+			document.getElementById("complete-button").innerHTML="Complete?";
+		}
+	
+		function change() { 
+			let val = document.getElementById("complete-button").innerHTML
+			if (val === "Complete?"){
+				localStorage.Score =score_val+3
+				document.getElementById("complete-button").innerHTML="Complete✓";	
+			}
+			alert("Your score is now: "+localStorage.Score)
+			
+			return score
+		
+
+			
+			
+
+		}
+	</script>
+</body>
+</html>

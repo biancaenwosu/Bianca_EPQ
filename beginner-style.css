@@ -1,0 +1,208 @@
+
+code{
+    font-family: 'Monaco', Courier, monospace;
+    background-color: white;
+    color: darkblue;
+    font-size: 2 vh;
+    display: flex;
+    text-align: left;
+    
+    margin:0% 40% 0% -2%;
+    padding: 0 -20vh 0 0;
+    
+
+}
+h1{
+    text-align: center;
+    font-size: 5vh;
+    background-color: darkblue;
+    
+}
+h2{
+    text-align: center;
+    margin-top: -29px;
+    background-color: darkblue;
+}
+#intro{
+    font-family: "Patrick Hand SC";
+    font-size: 30px;
+    font-variant: small-caps;
+}
+pre{
+    text-align: left;
+}
+figcaption{
+    float: left;
+    margin:-20px;
+    font-size: 3vh;
+}
+#header{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: -20px;
+    font-size: 20px;
+    margin-left: -4vh;
+}
+#body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -27vh;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+#body-explain{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -27vh;
+    margin-top:-40px;
+    font-size: 20px;
+    margin-bottom: -10px;
+
+}
+*{
+    font-family: "Times New Roman", Times, serif;
+    background-color: lightblue;
+    color: white;
+    
+
+}
+#complete-button{
+    background-color: white;
+    color: lightblue;
+    width: 100%;
+    height: 10vh;
+    border: transparent;
+    font-size: 4vh;
+
+}
+#complete-button:hover{
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    border: transparent;
+    font-size: 4vh;
+    cursor: pointer;
+}
+#embeded-html{
+    font-family: "Patrick Hand SC";
+    font-size: 30px;
+    font-variant: normal;
+}
+/**#body-comment{
+    margin-left:-46vh;
+    text-align: left;
+    float: inline;
+}**/
+.extra{
+    font-family: "Patrick Hand SC";
+    font-size: 40px;
+    font-variant: normal;
+    margin-top: -20px;
+    
+}
+@media screen and (max-width:400px){
+    code{
+        font-family: False;
+        background-color: white;
+        color: darkblue;
+        font-size: calc(var(--vh, 1vh) * 2);
+        display: flex;
+        text-align: left;
+        
+        margin:0%;
+        padding: 0 calc(var(--vh, 1vh) * 0) 0 0;
+        
+    
+    }
+    h1{
+        text-align: center;
+        font-size: calc(var(--vh, 1vh) * 5);
+        background-color: darkblue;
+        
+    }
+    h2{
+        text-align: center;
+        margin-top: -29px;
+        background-color: darkblue;
+    }
+    #intro{
+        font-family: "Patrick Hand SC";
+        font-size: calc(var(--px, 1px) * 30);
+        font-variant: small-caps;
+    }
+    pre{
+        text-align: left;
+    }
+    figcaption{
+        float: left;
+        margin:-20px;
+        font-size: 3vh;
+    }
+    #header{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin: -20px;
+        font-size: 20px;
+        margin-left: 0vh;
+        white-space: normal;
+    }
+    #body{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 0vh;
+        font-size: 20px;
+        margin-top: -40px;
+        margin-bottom: -30px;
+        white-space: normal;
+    }
+    #body-explain{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 0vh;
+        margin-top:-40px;
+        font-size: 20px;
+        margin-bottom: -10px;
+        white-space: normal;
+        
+        
+    
+    }
+    *{
+        font-family: "Times New Roman", Times, serif;
+        background-color: lightblue;
+        color: white;
+        
+    
+    }
+    #complete-button{
+        background-color: white;
+        color: lightblue;
+        width: 100%;
+        height: 10vh;
+        border: transparent;
+        font-size: 4vh;
+    
+    }
+    #complete-button:hover{
+        background-color: darkblue;
+        color: white;
+        width: 100%;
+        height: 10vh;
+        border: transparent;
+        font-size: 4vh;
+        cursor: pointer;
+    }
+    #embeded-html{
+        font-family: "Patrick Hand SC";
+        font-size: 30px;
+        font-variant: normal;
+    }
+    #body-comment{
+        margin-left:0vh;
+        text-align: left;
+        float: inline;
+    }
+    .extra{
+        font-family: "Patrick Hand SC";
+        font-size: 40px;
+        font-variant: normal;
+        margin-top: -20px;
+        
+    } 
+}

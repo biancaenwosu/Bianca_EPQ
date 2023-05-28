@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="home-style.css">
+    <script src="test-scores.js"></script>
+    <title>Hack.it()</title>
+   
+
+    
+</head>
+<body>
+    <h1>Home</h1>
+    <ul class = "ranking">
+        <li><a href="beginners.html" id = 'element1' onmouseover = "changeText(1)">Beginners</a></li>
+        <li><a href="intermediate.html" id = 'element2' onmouseover = "changeText(2)">Intermediate</a></li>
+        <li><a href="advanced.html" id = 'element3' onmouseover = "changeText(3)">Advanced</a></li>
+        <li><a href="professional.html" id = 'element4' onmouseover = "changeText(4)">Professional</a></li>
+        
+    </ul>
+    <div class = "container">
+        <p>Happy coding!
+        </p>
+        
+    </div>
+    <script>
+        function changeText(idElement) {
+            
+            var x = parseInt(localStorage.getItem("Score"))
+           
+          
+            var element = document.getElementById('element' + idElement);
+            if (idElement === 1) {
+                if (x >= 0) element.innerHTML = 'Beginners🔓';
+                else{
+                    element.innerHTML = 'Beginners 🔒'
+                }
+                            
+            }
+            else if (idElement === 2 ){
+                if (x >= 2) element.innerHTML = 'Intermediate🔓';
+                else{
+                    element.innerHTML = 'Intermediate 🔒'
+                }
+            }
+            else if (idElement === 3){
+                if (x >= 5 ) element.innerHTML = 'Advanced🔓';
+                else{
+                    element.innerHTML = 'Advanced 🔒'
+                }
+            }
+            else if (idElement === 4 ){
+                if ( x >=8) element.innerHTML = 'Professional🔓';
+                else{
+                    element.innerHTML = 'Professional 🔒'
+                }
+            }
+        }
+        
+  
+    </script>
+</body>
+</html>

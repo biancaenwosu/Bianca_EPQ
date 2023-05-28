@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="professional.css">
+        <script src="professional.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Patrick Hand SC' rel='stylesheet'>
+        
+        <title>Hack.It()</title>
+    </head>
+    <body>
+        <h1> Welcome to the Playground</h1>
+        <h3>Also known as the professional page</h3>
+        <p> Coding is mostly playing around, though you can learn and memorise the syntax, you will only ever become
+            a good coder through trial and error. It's ok not to get everything perfect at first or to not understand.
+            On this page you will get prompts and have the option of asking any questions you may have.
+        </p>
+        <h2 id="prompt1">Prompt 1:</h2>
+        <p id="prompt1_p"> Create a website that has a red backgroud and a black navegation bar.
+            (Feel free to add different links to the navegation bar!!)
+            <iframe src="https://trinket.io/embed/html/3f9bafa185?runMode=autorun" width="70%" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+        </p>
+        <h2 id="prompt1">Prompt 2:</h2>
+        <p id="prompt1_p"> Create a button that changes text when you click it
+            (Feel free to add your own special features (e.g. changing multiple times!!))
+            <iframe src="https://trinket.io/embed/html/3f9bafa185?runMode=autorun" width="70%" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+        </p>
+        <h2 id="prompt1">Prompt 3:</h2>
+        <p id="prompt1_p"> Create a website that has a red backgroud and a black navegation bar and a footer.
+            (Feel free to add different links to the navegation bar and footer!!)
+            <iframe src="https://trinket.io/embed/html/3f9bafa185?runMode=autorun" width="70%" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+        </p>
+        <h2 id="prompt1">Prompt 4:</h2>
+        <p id="prompt1_p"> Get user input prompted by the question "what is your name?"
+            <iframe src="https://trinket.io/embed/html/3f9bafa185?runMode=autorun" width="70%" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe> 
+        </p>
+        <div class="glass">
+            <h1>Chatbot</h1> 
+            <h2>Ask anything related to this website</h2> 
+            <div class="input"> 
+                
+                <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk()}" placeholder="Type your Question" /> 
+            </div> 
+            <p id="chatLog">Answer Appering Hear</p> 
+        </div>
+        <a href = "test2.html"><button onclick="change()" id="complete-button"></button>
+        </a>
+        <script>
+            var score_val = parseInt(localStorage.getItem("Score"))
+            
+            if (score_val > 9){
+                    document.getElementById("complete-button").innerHTML="Complete✓";
+                }
+            else{
+                document.getElementById("complete-button").innerHTML="Complete?";
+            }
+        
+            function change() { 
+                let val = document.getElementById("complete-button").innerHTML
+                if (val === "Complete?"){
+                    localStorage.Score =score_val+3
+                    document.getElementById("complete-button").innerHTML="Complete✓";	
+                }
+                
+                
+                return score
+            
+    
+                
+                
+    
+            }
+        </script>
+    </body>

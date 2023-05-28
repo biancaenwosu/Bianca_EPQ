@@ -1,0 +1,339 @@
+body{
+    font-family: "Patrick Hand SC";
+    background-image: url('slow_moving.gif');
+    background-size: 100%;
+    background-color: darkblue;
+    color: white;
+        
+}
+h1{
+    background-image:linear-gradient(#3e3f63,#7678f8,white);
+    text-align: center;
+    padding:30px 0;
+
+}
+.Task1{
+    font-family: 'Monaco', Courier, monospace;
+    background-color: white;
+    color: darkblue;
+    font-size: 2 vh;
+    margin:0 50% 0 0;
+
+}
+.task1_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    
+}
+h3.task1_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    font-family: "Patrick Hand SC";
+    font-size: 4vh;
+    margin: -5px 0
+
+}
+.Task2{
+    font-family: 'Monaco', Courier, monospace;
+    background-color: grey;
+    color: white;
+    font-size: 2 vh;
+    margin:0 50% 0 0;
+
+}
+.task2_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    
+}
+h3.task2_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    font-family: "Patrick Hand SC";
+    font-size: 4vh;
+    margin: -5px 0
+
+}
+.Task3{
+    font-family: 'Monaco', Courier, monospace;
+    background-color: #7678f8;
+    color: black;
+    font-size: 2 vh;
+    margin:0 50% 0 0;
+
+}
+.task3_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    
+}
+h3.task3_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    font-family: "Patrick Hand SC";
+    font-size: 4vh;
+    margin: -5px 0
+
+}
+.Link{
+    font-family: 'Monaco', Courier, monospace;
+    background-color: #3e3f63;
+    color: lightblue;
+    font-size: 2 vh;
+    margin:0 50% 0 0;
+
+}
+.link_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    
+}
+h3.link_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    font-family: "Patrick Hand SC";
+    font-size: 4vh;
+    margin: -5px 0
+
+}
+.Task4{
+    font-family: 'Monaco', Courier, monospace;
+    background-color: #10114b;
+    color: rgb(179, 199, 250);
+    font-size: 2 vh;
+    margin:0 50% 0 0;
+
+}
+.task4_comment{
+    background-image: url('slow_moving.gif');
+    color: rgb(255, 255, 255);
+    
+}
+h3.task4_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    font-family: "Patrick Hand SC";
+    font-size: 4vh;
+    margin: -5px 0
+
+}
+#complete-button{
+    font-family: 'Patrick Hand SC';
+    background-color: white;
+    color: darkblue;
+    width: 100%;
+    height: 10vh;
+    border: transparent;
+    font-size: 4vh;
+
+}
+#complete-button:hover{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 10vh;
+    border: transparent;
+    font-size: 4vh;
+    cursor: pointer;
+}
+.Task5{
+    font-family: 'Monaco', Courier, monospace;
+    background-color: #9d9ff4;
+    color: rgb(35, 40, 52);
+    font-size: 2 vh;
+    margin:0 50% 0 0;
+
+}
+.task5_comment{
+    background-image: url('slow_moving.gif');
+    color: rgb(255, 255, 255);
+    
+}
+h3.task5_comment{
+    background-image: url('slow_moving.gif');
+    color: white;
+    font-family: "Patrick Hand SC";
+    font-size: 4vh;
+    margin: -5px 0
+
+}
+@media screen and (max-width:400px){
+    body{
+        font-family: "Patrick Hand SC";
+        background-image: url('slow_moving.gif');
+        background-size: 100%;
+        background-color: darkblue;
+        color: white;
+            
+    }
+    h1{
+        background-image:linear-gradient(#3e3f63,#7678f8,white);
+        text-align: center;
+        padding:30px 0;
+    
+    }
+    .Task1{
+        font-family: 'Monaco', Courier, monospace;
+        background-color: white;
+        color: darkblue;
+        font-size: 2 vh;
+        margin:0 30% 0 0;
+    
+    }
+    .task1_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        white-space: normal;
+        margin-right: -100%;
+        
+    }
+    h3.task1_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        font-family: "Patrick Hand SC";
+        font-size: 4vh;
+        margin: -5px 0
+    
+    }
+    .Task2{
+        font-family: 'Monaco', Courier, monospace;
+        background-color: grey;
+        color: white;
+        font-size: 2 vh;
+        margin:0 30% 0 0;
+    
+    }
+    .task2_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        white-space: normal;
+        margin-right: -100%;
+        
+    }
+    h3.task2_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        font-family: "Patrick Hand SC";
+        font-size: 4vh;
+        margin: -5px 0
+    
+    }
+    .Task3{
+        font-family: 'Monaco', Courier, monospace;
+        background-color: #7678f8;
+        color: black;
+        font-size: 2 vh;
+        margin:0 30% 0 0;
+    
+    }
+    .task3_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        white-space: normal;
+        margin-right: -100%;
+        
+    }
+    h3.task3_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        font-family: "Patrick Hand SC";
+        font-size: 4vh;
+        margin: -5px 0
+    
+    }
+    .Link{
+        font-family: 'Monaco', Courier, monospace;
+        background-color: #3e3f63;
+        color: lightblue;
+        font-size: 2 vh;
+        margin:0 30% 0 0;
+        
+    
+    }
+    .link_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        white-space: normal;
+        margin-right: -100%;
+    }
+    h3.link_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        font-family: "Patrick Hand SC";
+        font-size: 4vh;
+        margin: -5px 0
+    
+    }
+    .Task4{
+        font-family: 'Monaco', Courier, monospace;
+        background-color: #10114b;
+        color: rgb(179, 199, 250);
+        font-size: 2 vh;
+        margin:0 3% 0 0;
+    
+    }
+    .task4_comment{
+        background-image: url('slow_moving.gif');
+        color: rgb(255, 255, 255);
+        white-space: normal;
+        margin-right: -100%;
+        
+    }
+    h3.task4_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        font-family: "Patrick Hand SC";
+        font-size: 4vh;
+        margin: -5px 0
+    
+    }
+    #complete-button{
+        font-family: 'Patrick Hand SC';
+        background-color: white;
+        color: darkblue;
+        width: 100%;
+        height: 10vh;
+        border: transparent;
+        font-size: 4vh;
+    
+    }
+    #complete-button:hover{
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 10vh;
+        border: transparent;
+        font-size: 4vh;
+        cursor: pointer;
+    }
+    .Task5{
+        font-family: 'Monaco', Courier, monospace;
+        background-color: #9d9ff4;
+        color: rgb(35, 40, 52);
+        font-size: 2 vh;
+        margin:0 30% 0 0;
+    
+    }
+    .task5_comment{
+        background-image: url('slow_moving.gif');
+        color: rgb(255, 255, 255);
+        white-space: normal;
+        margin-right: -100%;
+        
+    }
+    h3.task5_comment{
+        background-image: url('slow_moving.gif');
+        color: white;
+        font-family: "Patrick Hand SC";
+        font-size: 4vh;
+        margin: -5px 0
+    
+    }
+    #turn{
+        justify-content: center;
+        margin:20% 40% ;
+        font-size: 5vh;
+    }
+
+    
+}
