@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+	<link rel="stylesheet" href="advanced-style.css">
+	<script src="test-scores.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Patrick Hand SC' rel='stylesheet'>
+	
+    <title>Hack.It()</title>
+</head>
+<body>
+    <h1 id="Welcome"> Welcome to the Advanced page</h1>
+    <h3 id = "intro">We will be learning about JavaScript and external stylesheets and JavaScript</h3>
+    <pre id = "starter">
+        <h3>Basic JavaScript</h3>
+        <code>
+&lt;p id= 'Greetings'&gt; &lt;/p&gt;
+&lt;script&gt;
+document.getElementById("Greetings").innerHTML="hello";
+&lt;/script&gt;
+
+        </code>
+    </pre>
+    <p id="explain1">&lt;script&gt; is a tag that references JavaScript code. In this script I have named my written a 
+word to be displayed by my HTML. 'document.getElementById("Greetings").innerHTML' is a function of JavaScript. It means that it should get the 
+word/element that is referenced by the id given. My 'id' in this is 'Greetings' because that is what I called it in
+my HTML. By assigning 'document.getElementById("Greetings").innerHTML' to 'hello' I am saying that the element associated 
+with the id referenced should be written/overwritten as 'hello'
+    </p>
+    
+    <pre id = "starter_activity">
+        <h3>Getting user input</h3>
+        <code>
+&lt;form&gt;
+    &lt;input type="text" id="input_id" value="">
+    &lt;button value="Submit" onclick="userinput()"> &lt;button/>
+    &lt;div id="alert">&lt;/div>
+&lt;/form&gt;
+&lt;script&gt;
+    function userinput() {
+        var variable = document.getElementById('input_id').value;
+        document.getElementById('alert').innerHTML = 'The user input is: ' + variable;
+    }
+&lt;/script&gt;
+        </code>
+        <h3> Copy & Paste the code above!!   ↑</h3>
+        <iframe src="https://trinket.io/embed/html/d4d60e81d6?runMode=autorun" width="70%" height="250" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>    </pre>
+    <p id="explain2">the tag &gt;form> is a function of HTML it creates a form which is where you type
+        whatever you want or is appropriate in the text field provided.
+        The 'id' of the input is "input_id" which we refer to in our JavaScript below it.
+        I have created a function called 'userinput' which is activated 'onclick' of the submit button 
+        in our HTML. There are many diffent modes but onclick tells the function 'userinput' to run when
+        the button is 'clicked'.
+        
+    </p>
+    <p id="explain_js"> The code between the &lt;script> tag is JavaScript (commonly abbreviated JS):
+        'var variable' - this creates a variable and calls it 'variable' it can be any name you want I 
+        simply named it variable for teaching sake. 
+        document.getElementById('input_id').value- this gets the value/element associated with the referenced
+        id.
+        'The user input is: ' + variable - I have concatenated a string and my variable. Concatenation is simply
+        putting strings together. 'Strings' is a character type which is shown by "" or ''.
+
+    </p>
+
+    <pre id="external_css">
+        <h3>External style sheets</h3>
+        <p id="explain3">We have seen when we use internal stlye sheets
+with &lt;style> tags but you can also have external style sheets.
+we can reference this in the header. </p>
+        <code>
+    &lt;head>
+        &ltlink rel="stylesheet" href="*stylesheetname.css*">
+    &lt;/head>
+        </code>
+        <p id="explain3"> This is how you reference an external style sheet.
+The style sheet name can bee anything and the '.css' at the end 
+is the file type that shows it's a CSS file.The CSS file is structured 
+the same as the code inside the &gt;style> tags.
+        </p>
+    </pre>
+    <pre id="external_js">
+        <h3> External JavaScript</h3>
+        <code>
+            &lt;script src="*javascript file name*.js">&lt;/script>
+        </code>
+        <p id="explain3">This is how you reference a javascript external code.
+        the '.js' is how you show it's a JavaScript file and the format of code is the
+        same as in the &lt;script> tags.
+        </p>
+    </pre>
+
+    <a href = "home.html"><button onclick="change()" id="complete-button"></button>
+	</a>
+		
+	<script>
+		var score_val = parseInt(localStorage.getItem("Score"))
+		
+		if (score_val > 8){
+				document.getElementById("complete-button").innerHTML="Complete✓";
+			}
+		else{
+			document.getElementById("complete-button").innerHTML="Complete?";
+		}
+	
+		function change() { 
+			let val = document.getElementById("complete-button").innerHTML
+			if (val === "Complete?"){
+				localStorage.Score =score_val+3
+				document.getElementById("complete-button").innerHTML="Complete✓";	
+			}
+			alert("Your score is now: "+localStorage.Score)
+			
+			return score
+		
+
+			
+			
+
+		}
+	</script>
+</body>
