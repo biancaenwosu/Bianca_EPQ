@@ -15,7 +15,7 @@ a{
 }
 
 html, body {
-  background: #f4d367;
+  background: rgb(32, 32, 119);
   text-align: center;
   width: 70%;
   height: 50%;
@@ -52,7 +52,7 @@ body {
   float: left;
   margin: 8px 0px 0px 8px;
   padding: 4px 8px;
-  background: #fb9c3e;
+  background: #4d9da4;
   color: black;
   font-size: 14px;
   cursor: pointer;
@@ -60,13 +60,13 @@ body {
 }
 
 #quiz button:hover {
-  background: #e6f39f;
+  background: #a8dcef;
   color: black;
 }
 
 #quiz button:disabled {
   opacity: 0.5;
-  background: #fb9c3e;
+  background: #4d9da4;
   color: black;
   cursor: default;
 }
@@ -91,20 +91,20 @@ body {
   display: inline-block;
   margin: 4px;
   padding: 8px;
-  background: #FAE3BB;
-  color: #4C3000;
+  background: #a18bf7;
+  color: #054c50;
   width: calc(50% - 8px);
   min-width: 50px;
   cursor: pointer;
 }
 
 #question label:hover {
-  background: #EBBB67;
+  background: #2fb6c3;
 }
 
 #question input[type=radio]:checked + label {
-  background: #CB8306;
-  color: #FAFAFA;
+  background: #226979;
+  color: #22d1de;
 }
 
 #quiz-results {
@@ -140,13 +140,14 @@ body {
 
 #quiz-retry-button {
 
-  float: left;
-  margin: 8px 0px 0px 8px;
-  padding: 4px 8px;
-  background: #9ACFCC;
-  color: #00403C;
+  
+  padding: 0 67.5%;
+  background: #4d9da4;
+  color: black;
   font-size: 14px;
   cursor: pointer;
   outline: none;
-  
+  margin: 2% 0%;
 }
+  
+
